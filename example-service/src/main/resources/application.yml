@@ -1,0 +1,16 @@
+server:
+  port: 8000
+nacos:
+  server-addr: 192.168.253.128:8848  #自定义注解
+#配置中心
+  config:
+    server-addr: 192.168.253.128:8848
+#服务名称
+spring:
+  application:
+    name: example-service
+
+path: /login  #自定义注解
+
+user:
+  name: test  #自定义注解
